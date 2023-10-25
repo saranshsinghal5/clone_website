@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+
+}
+
+#nav{
+     position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+
+#nav a{
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+   
+}
+
+#nav #centertag{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+    margin-top: 15vw;
+    padding: 2vw 10vw;
+    height: 100%;
+}
+#sustain{
+    width: 10vw;
+}
+
+#sustain p{
+    font-size: 12px;
+    opacity: .8 ;
+    margin: 10px 0px;
+    text-transform: capitalize;
+
+}
+#sustain #susimagewrapper{
+    width: 100%;
+    height: 15vw;
+}
+#susimagewrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#eph{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+
+}
+#eph img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#eph #heading{
+    top: -22%;
+    left: -19%;
+    position: absolute;
+}
+#eph h1{
+    letter-spacing: -.3vw;
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 100;
+}
+#eph p{
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3vw  ;
+    width: 39%;
+}
+
+#imgtext{
+
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover   ;
+
+}
+#circlev{
+    border-radius: 50%;
+    border: 1px solid #5e5e5e ;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+}
+#visit{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#circlev i{
+    color: #5e5e5e;
+}
+
+#visit h3{
+  color:#5e5e5e;
+  font-weight: 400;
+}
+#motive{
+    display: flex;
+    justify-content: space-between  ;
+    margin: 7vw;
+    padding: 3vw 10vw;
+} 
+#motive p{
+    line-height: 1.5;
+    position: relative;
+    right:0;    
+    width: 80% ;
+    text-align: right;
+    font-size: 2.1vw;
+
+}
+#motive span{
+    
+    display: inline-block;
+    letter-spacing: -.15 ;
+    margin: 0px 10px;
+    border-radius:100px ;
+    background-color: red;
+    margin: 0px 9px;
+    margin-bottom: -12.5px;
+}
+
+#span1{
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position:0% 60%;
+}
+#span2{
+    width: 120px;
+    height: 40px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position:0% 50%;
+}
+
+#span3{
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position:0% 50%;
+}
+
+#picture{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+
+#firstimg 
+{
+    width: 17vw;
+}
+#firstimg #picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: rgb(103, 103, 166);
+}
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;   
+}
+#firstimg h1{
+    letter-spacing: -.1;
+    font-size: 2vw;
+    font-weight: 100;
+}
+#firstimg p{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: .8;
+}
+
+#secondimg{
+    width: 28vw;
+
+}
+#secondimg #picimg2{
+    width: 100%;
+    height: 35vw;
+    background-color: black;
+    margin-bottom: 10px;
+    
+}
+#picimg2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#secondimg h1{
+    align-items: right;
+    font-size: 2vw;
+    font-weight:100;
+    letter-spacing: -.1;
+    margin: 1vw 0vw;
+}
+#secondimg p{
+    opacity: .8;
+}
+
